@@ -1,1 +1,12 @@
-/*This file is for your custom css.  All yours*/
+.score-row{
+  height: 120px;
+}
+
+#score1 ,#score2{
+  background-color: lightgrey;
+  height: 90px;
+}
+
+.game-col{
+  display: none;
+}
