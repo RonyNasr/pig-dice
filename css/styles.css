@@ -2,11 +2,37 @@
   height: 120px;
 }
 
-#score1 ,#score2{
+.score1 ,.score2{
   background-color: lightgrey;
+  text-align: center;
   height: 90px;
+  width : 190px;
+}
+
+.score1{
+  margin-left: 5px;
+}
+
+.play-row{
+  text-align: center;
 }
 
 .game-col{
   display: none;
+}
+
+.active{
+  border: 2px solid black
+}
+
+.passive{
+  border: none;
+}
+
+#total {
+  text-align: center;
+  margin: 30px 10px 0px 10px;
+  background-color: lavender;
+  height: 90px;
+  width: 170px;
 }

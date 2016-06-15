@@ -27,33 +27,31 @@
           <label for="player1">Player 1</label>
           <input type="text" id="player1" class="form-control">
           <label for="player2">Player 2</label>
-          <input type="text" id="player2" class="form-control">
-          <span class="btn btn-default" id="add">add</span>
+          <input type="text" id="player2" class="form-control"><br>
+          <span class="btn btn-default" id="add">Play!</span>
         </div>
-      <div class="col-md-6 game-col">
+      <div class="col-md-6 block game-col">
         <div class="row score-row">
-          <div class="col-sm-4" id="score1">
+          <div class="col-sm-4 score1" id="score1">
             <h4 id="p1-score"></h4>
             <span id="score1-span"></span>
           </div>
-          <div class="col-sm-4" id="total">
+          <div class="col-sm-4 total" id="total">
             <h4>Total</h4>
             <span id="total-span"></span>
           </div>
-          <div class="col-sm-4" id="score2">
+          <div class="col-sm-4 score2" id="score2">
             <h4 id="p2-score"></h4>
             <span id="score2-span"></span>
           </div>
         </div>
-        <div class="row">
+        <div class="row play-row">
+          <h3>Dice: <span id="dice-value"></span></h3>
           <span class="btn btn-success" id="roll">Roll</span>
           <span class="btn btn-danger" id="hold">Hold</span>
         </div>
       </div>
     </div>
-      <footer>
-        <p>&copy; 2016 Epicodus Pair Project, Inc.</p>
-      </footer>
     </div> <!-- end container -->
   </body>
 </html>
